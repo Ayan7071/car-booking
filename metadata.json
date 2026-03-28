@@ -1,0 +1,5 @@
+{
+  "name": "Lokseva Tours",
+  "description": "Premium local and outstation travel booking service in India. Book rides for airport, local, and tour packages.",
+  "requestFramePermissions": ["geolocation"]
+}

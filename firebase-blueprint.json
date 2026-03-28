@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "Review": {
+      "title": "Review",
+      "description": "A customer review with rating and message",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the reviewer"
+        },
+        "rating": {
+          "type": "number",
+          "description": "Rating from 1 to 5"
+        },
+        "message": {
+          "type": "string",
+          "description": "Review message"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the review was created"
+        },
+        "uid": {
+          "type": "string",
+          "description": "User ID of the reviewer (if authenticated)"
+        }
+      },
+      "required": ["name", "rating", "message", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/reviews/{reviewId}": {
+      "schema": "Review",
+      "description": "Collection of customer reviews"
+    }
+  }
+}
