@@ -109,7 +109,7 @@ const Home = () => {
                 <span className="text-primary italic">Our Priority.</span>
               </h1>
               <p className="text-xl text-gray-300 mb-10 max-w-lg">
-                Experience premium travel across India with Lokseva Tours. Safe, reliable, and affordable rides at your doorstep.
+                Experience premium travel across India with Lokseva Tours. Safe, reliable, and best rates at your doorstep.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/booking" className="btn-primary text-lg py-4">
@@ -199,8 +199,8 @@ const Home = () => {
                 <IndianRupee className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="font-bold text-lg">Affordable</h4>
-                <p className="text-gray-400 text-sm">Best rates in the market</p>
+                <h4 className="font-bold text-lg">Best Rates</h4>
+                <p className="text-gray-400 text-sm">Contact us for the best quotes</p>
               </div>
             </div>
           </div>
@@ -217,9 +217,9 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "Local Travel", desc: "Perfect for city rides and daily commutes.", icon: MapPin },
-              { title: "Outstation", desc: "Comfortable long-distance trips across states.", icon: Car },
-              { title: "Airport Transfer", desc: "Reliable pickup and drop to all major airports.", icon: Clock },
+              { title: "Local Travel", desc: "Available across Ahilyanagar District.", icon: MapPin },
+              { title: "Outstation", desc: "Comfortable trips across All Maharashtra.", icon: Car },
+              { title: "All Districts", desc: "Reliable travel to all major districts.", icon: MapPin },
               { title: "Tour Packages", desc: "Customized sightseeing tours for families.", icon: Star },
             ].map((service, idx) => (
               <motion.div

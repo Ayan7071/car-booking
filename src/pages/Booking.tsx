@@ -116,7 +116,7 @@ const Booking = () => {
                   </div>
                   <div>
                     <h5 className="font-bold">No Hidden Costs</h5>
-                    <p className="text-gray-400 text-sm">Transparent pricing for all trips</p>
+                    <p className="text-gray-400 text-sm">Best rates for all trips</p>
                   </div>
                 </li>
                 <li className="flex gap-4">

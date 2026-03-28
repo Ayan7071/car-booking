@@ -11,7 +11,7 @@ const Fleet = () => {
       passengers: 7,
       luggage: 3,
       features: ["Air Conditioned", "Spacious Seating", "Comfortable for Families", "Reliable Performance"],
-      price: "₹12/km"
+      price: "Contact for Pricing"
     }
   ];
 
@@ -47,7 +47,6 @@ const Fleet = () => {
                     <h3 className="text-3xl font-bold text-black mt-1">{car.name}</h3>
                   </div>
                   <div className="text-right">
-                    <span className="text-gray-400 text-sm">Starts from</span>
                     <p className="text-2xl font-bold text-black">{car.price}</p>
                   </div>
                 </div>

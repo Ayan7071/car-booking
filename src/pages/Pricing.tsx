@@ -1,32 +1,32 @@
 import { motion } from "motion/react";
-import { IndianRupee, MapPin, Car, Plane, CheckCircle2 } from "lucide-react";
+import { MapPin, Car, CheckCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Pricing = () => {
   const pricingPlans = [
     {
       title: "Local Travel",
-      price: "₹15",
-      unit: "/ km",
+      price: "Contact",
+      unit: " for best rates",
       icon: MapPin,
-      features: ["Minimum 80km/8hrs", "Driver Allowance Included", "Clean & Sanitized Car", "Professional Driver"],
+      features: ["Ahilyanagar District Coverage", "Driver Allowance Included", "Clean & Sanitized Car", "Professional Driver"],
       color: "bg-blue-50 text-blue-600"
     },
     {
       title: "Outstation",
-      price: "₹12",
-      unit: "/ km",
+      price: "Contact",
+      unit: " for best rates",
       icon: Car,
-      features: ["Minimum 250km/day", "One-way or Round Trip", "Inter-state Permits", "Comfortable Seating"],
+      features: ["All Maharashtra Coverage", "One-way or Round Trip", "Inter-state Permits", "Comfortable Seating"],
       color: "bg-primary/10 text-primary",
       popular: true
     },
     {
-      title: "Airport Transfer",
-      price: "₹500",
-      unit: " onwards",
-      icon: Plane,
-      features: ["Fixed Rates", "No Hidden Charges", "Flight Tracking", "Meet & Greet Service"],
+      title: "All Districts",
+      price: "Contact",
+      unit: " for best rates",
+      icon: MapPin,
+      features: ["Inter-District Travel", "No Hidden Charges", "Punctual Service", "Reliable Performance"],
       color: "bg-purple-50 text-purple-600"
     }
   ];
@@ -35,8 +35,8 @@ const Pricing = () => {
     <div className="min-h-screen pt-32 pb-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-black mb-4">Transparent Pricing</h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">No hidden charges. No surprises. Just honest pricing for your travel needs.</p>
+          <h1 className="text-4xl font-bold text-black mb-4">Get a Quote</h1>
+          <p className="text-gray-600 max-w-2xl mx-auto">Contact us for the best and most honest pricing for your travel needs.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -101,9 +101,9 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="bg-white/5 border border-white/10 p-8 rounded-2xl">
-              <h4 className="text-xl font-bold mb-4 text-primary">Custom Package?</h4>
+              <h4 className="text-xl font-bold mb-4 text-primary">Need Help?</h4>
               <p className="text-gray-400 mb-6">Planning a long tour or need a car for multiple days? Contact us for a customized quote.</p>
-              <a href="https://wa.me/919876543210" className="btn-primary w-full">
+              <a href="https://wa.me/919960099233" className="btn-primary w-full text-center py-4 rounded-xl font-bold flex items-center justify-center gap-2">
                 Get Custom Quote
               </a>
             </div>

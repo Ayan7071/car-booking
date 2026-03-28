@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Pricing", path: "/pricing" },
+    { name: "Get a Quote", path: "/pricing" },
     { name: "Fleet", path: "/fleet" },
     { name: "Contact", path: "/contact" },
   ];
@@ -102,7 +102,7 @@ export const Footer = () => (
             <span className="text-xl font-bold tracking-tighter">LOKSEVA TOURS</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Your trusted travel partner in India. Providing safe, reliable, and affordable transportation services for all your needs.
+            Your trusted travel partner in India. Providing safe, reliable, and best rates transportation services for all your needs.
           </p>
           <div className="flex gap-4">
             <Facebook className="w-5 h-5 text-gray-400 hover:text-primary cursor-pointer" />
@@ -115,7 +115,7 @@ export const Footer = () => (
           <h4 className="text-lg font-bold mb-6">Quick Links</h4>
           <ul className="space-y-3 text-gray-400 text-sm">
             <li><Link to="/" className="hover:text-primary">Home</Link></li>
-            <li><Link to="/pricing" className="hover:text-primary">Pricing</Link></li>
+            <li><Link to="/pricing" className="hover:text-primary">Get a Quote</Link></li>
             <li><Link to="/fleet" className="hover:text-primary">Our Fleet</Link></li>
             <li><Link to="/booking" className="hover:text-primary">Book a Ride</Link></li>
           </ul>
@@ -126,7 +126,7 @@ export const Footer = () => (
           <ul className="space-y-3 text-gray-400 text-sm">
             <li>Local Travel</li>
             <li>Outstation Trips</li>
-            <li>Airport Pickup/Drop</li>
+            <li>All Districts Travel</li>
             <li>Tour Packages</li>
           </ul>
         </div>
